@@ -110,23 +110,29 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="𝓤𝓹𝓭𝓪𝓽𝓮𝓼 👨🏻‍💻",
+                url="https://t.me/proxbotz",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
+                text="𝓢𝔂𝓼𝓽𝓮𝓶 𝓢𝓽𝓪𝓽𝓼 🖥",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="𝓢𝓾𝓹𝓹𝓸𝓻𝓽 👨", url="https://t.me/proxbotzofficial"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="𝓐𝓭𝓭 𝓜𝓮 𝓣𝓸 𝓨𝓸𝓾𝓻 𝓖𝓻𝓸𝓾𝓹 🎉",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
+            )
+        ], 
+        [
+            InlineKeyboardButton(
+                text="★ᴀᴅᴅ ᴋɢꜰ ᴠɪʙᴇʀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ★ 🎉",
+                url=f"t.me/Tridentgroupsbot?startgroup=new",
             )
         ],
     ]
@@ -134,8 +140,10 @@ home_keyboard_pm = InlineKeyboardMarkup(
 
 home_text_pm = (
     f"Hey there![💖](https://telegra.ph/file/ee90389214bc05743f56a.jpg) My name is {BOT_NAME}. I can manage your "
-    + "group lots of useful features, feel free to "
-    + "add me to your group."
+    ────────────────────────
+    + ✪ "group lots of useful features, feel free to "
+    ────────────────────────
+    + ✪ "add me to your group."
 )
 
 
