@@ -107,25 +107,25 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="✪ᴄᴏᴍᴍᴀɴᴅs✪ ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="𝓤𝓹𝓭𝓪𝓽𝓮𝓼 👨🏻‍💻",
+                text="✪ᴜᴘᴅᴀᴛᴇs✪ 👨🏻‍💻",
                 url="https://t.me/proxbotz",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝓢𝔂𝓼𝓽𝓮𝓶 𝓢𝓽𝓪𝓽𝓼 🖥",
+                text="✪sʏsᴛᴇᴍ sᴛᴀᴛ✪ 🖥",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="𝓢𝓾𝓹𝓹𝓸𝓻𝓽 👨", url="https://t.me/proxbotzofficial"
+                text="✪Sᴜᴘᴘᴏʀᴛ✪ 👨", url="https://t.me/proxbotzofficial"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝓐𝓭𝓭 𝓜𝓮 𝓣𝓸 𝓨𝓸𝓾𝓻 𝓖𝓻𝓸𝓾𝓹 🎉",
+                text="✪ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ✪ 🎉",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ], 
@@ -139,7 +139,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! [💖](https://telegra.ph/file/ee90389214bc05743f56a.jpg) My name is {BOT_NAME}. I can manage your "
+    f"Hey there! [💖](https://telegra.ph/file/ee90389214bc05743f56a.jpg) My name is {BOT_NAME}. 
+          I can manage your "
     +  "✪ group lots of useful features, feel free to "
     +  "✪ add me to your group."
 )
