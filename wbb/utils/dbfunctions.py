@@ -34,6 +34,7 @@ from wbb import db
 
 
 notesdb = db.notes
+antinsfw = db.antinsfw
 filtersdb = db.filters
 warnsdb = db.warns
 karmadb = db.karma
