@@ -2,8 +2,13 @@ from pyrogram import filters
 
 from wbb import app
 from wbb.core.decorators.permissions import adminsOnly
+from wbb.utils.dbfunctions import (is_nsfw_on, nsfw_off, nsfw_on)
 
-__mod_name__ = "Anti-NSFW​"
+ __MODULE__ = "Anti-NSFW​"
+ __HELP__ = """
+ Plugin to delete service messages in a chat!
+ /antiservice [enable|disable]
+ """
 
 
 async def get_file_id_from_message(message):
