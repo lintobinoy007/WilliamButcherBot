@@ -7,7 +7,7 @@ from wbb.core.decorators.permissions import adminsOnly
 from wbb.utils.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 
  __MODULE__ = "Anti-NSFW​"
- __HELP__ = """
+ __HELP__ = """/antinsfw [on/off]
 
 
 async def get_file_id_from_message(message):
