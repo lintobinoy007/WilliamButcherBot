@@ -7,7 +7,7 @@ from wbb.utils.dbfunctions import (is_nsfw_on, nsfw_off, nsfw_on)
  __MODULE__ = "Anti-NSFW​"
  __HELP__ = """
  Plugin to delete service messages in a chat!
- /antiservice [enable|disable]
+ /antinsfw [on|off]
  """
 
 
