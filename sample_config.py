@@ -26,7 +26,6 @@ if HEROKU:
     LOG_MENTIONS = bool(int(environ.get("LOG_MENTIONS", None)))
     RSS_DELAY = int(environ.get("RSS_DELAY", None))
     PM_PERMIT = bool(int(environ.get("PM_PERMIT", None)))
-    ))
 else:
     BOT_TOKEN = "467677575:YZfaakjwd545dfg-N6JStihhuw5gQeZHntc"
     API_ID = 123456
