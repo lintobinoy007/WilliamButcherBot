@@ -17,6 +17,11 @@ speedtest-cli
 TgCrypto
 uvloop
 youtube_dl
+#profanity (Credits to Julia)
+better_profanity
+textblob 
+nudepy
+nekos.py
 bs4
 python-dotenv
 feedparser
