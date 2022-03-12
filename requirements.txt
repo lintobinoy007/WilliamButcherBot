@@ -17,13 +17,6 @@ speedtest-cli
 TgCrypto
 uvloop
 youtube_dl
-#profanity (Credits to Julia)
-better_profanity
-textblob 
-nudepy
-nekos.py
-python-telegram-bot==13.11.0
-git+https://github.com/python-telegram-bot/ptbcontrib.git
 bs4
 python-dotenv
 feedparser
