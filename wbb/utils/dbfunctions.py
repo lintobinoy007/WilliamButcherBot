@@ -34,7 +34,6 @@ from wbb import db
 
 
 notesdb = db.notes
-nsfwdb = db.nsfw
 filtersdb = db.filters
 warnsdb = db.warns
 karmadb = db.karma
@@ -67,26 +66,6 @@ def obj_to_str(obj):
 def str_to_obj(string: str):
     obj = pickle.loads(codecs.decode(string.encode(), "base64"))
     return obj
-
-async def is_nsfw_on(chat_id: int) -> bool:
-    chat = nsfwdb.find_one({"chat_id": chat_id})
-    if not chat:
-        return True
-    return False
-
-
-async def nsfw_on(chat_id: int):
-    is_nsfw = is_nsfw_on(chat_id)
-    if is_nsfw:
-        return
-    return nsfwdb.delete_one({"chat_id": chat_id})
-
-
-async def nsfw_off(chat_id: int):
-    is_nsfw = is_nsfw_on(chat_id)
-    if not is_nsfw:
-        return
-    return nsfwdb.insert_one({"chat_id": chat_id})
 
 
 async def get_notes_count() -> dict:
