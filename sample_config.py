@@ -26,6 +26,14 @@ if HEROKU:
     LOG_MENTIONS = bool(int(environ.get("LOG_MENTIONS", None)))
     RSS_DELAY = int(environ.get("RSS_DELAY", None))
     PM_PERMIT = bool(int(environ.get("PM_PERMIT", None)))
+    DRAGONS = get_user_list("elevated_users.json", "sudos")))
+    ##List of id's - (not usernames) for developers who will have the same perms as the owner
+    DEV_USERS = get_user_list("elevated_users.json", "devs")))
+    ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    DEMONS = get_user_list("elevated_users.json", "supports")
+    # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    TIGERS = get_user_list("elevated_users.json", "tigers")))
+    WOLVES = get_user_list("elevated_users.json", "whitelists")))
 else:
     BOT_TOKEN = "467677575:YZfaakjwd545dfg-N6JStihhuw5gQeZHntc"
     API_ID = 123456
